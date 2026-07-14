@@ -1,7 +1,4 @@
-import Link from 'next/link';
-
-export default function Home() {
-  return (
+importnext/link(
     <main className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800">
       {/* Navigation */}
       <nav className="border-b border-slate-700">
