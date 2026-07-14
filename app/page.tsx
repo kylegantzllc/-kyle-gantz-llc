@@ -25,11 +25,11 @@ export default function Home() {
 
         <div className="mt-10 flex gap-4">
           <a
-            <Portfolio />
             href="#contact"
-            className="rounded-lg bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-500"
+            className="rounded-lg bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-500 flex items-center gap-2"
           >
-            Get Started
+            <Portfolio />
+            <span>Get Started</span>
           </a>
 
           <a
@@ -152,8 +152,6 @@ export default function Home() {
           </p>
 
         </div>
-
-      </section>
 
 
       <Footer />
