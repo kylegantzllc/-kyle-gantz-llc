@@ -1,3 +1,4 @@
+import Portfolio from "@/components/Portfolio";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -24,6 +25,7 @@ export default function Home() {
 
         <div className="mt-10 flex gap-4">
           <a
+            <Portfolio />
             href="#contact"
             className="rounded-lg bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-500"
           >
