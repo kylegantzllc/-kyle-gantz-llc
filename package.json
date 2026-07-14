@@ -5,20 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "npm ls typescript >/dev/null 2>&1 || npm install typescript @types/node @types/react --no-save"
+    "start": "next start"
   },
   "dependencies": {
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "latest",
-    "typescript": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest"
+    "lucide-react": "latest"
   },
   "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
     "tailwindcss": "latest",
+    "@tailwindcss/postcss": "latest",
     "postcss": "latest",
     "autoprefixer": "latest"
   }
