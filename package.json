@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "npm ls typescript >/dev/null 2>&1 || npm install typescript @types/node @types/react --no-save"
   },
   "dependencies": {
     "next": "latest",
