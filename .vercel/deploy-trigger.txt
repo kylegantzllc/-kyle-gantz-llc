@@ -1,0 +1,4 @@
+Redeploy triggered by Copilot to kick Vercel build.
+Timestamp: 2026-07-14T00:45:00Z
+
+This file exists only to trigger a new build on Vercel after recent fixes to app/page.tsx and component paths.
